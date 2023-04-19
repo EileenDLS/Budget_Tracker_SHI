@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Budget Tracker | Daling</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div class="container" style="text-align: center">
+            <h1> Your Budget Tracker</h1>
+            <div class="row">
+                <input id="month" type="month" class="form-control" style="display: inline-block; width: 20%" />
+            </div>
+            <button id="editBudget" style="margin: 10px;">Edit Budget</button>
+            <div class="row">
+                <label for="budget">Budget:</label>
+                <div id="budget" style="display: inline; margin-right: 20px;">null</div>
+                <label for="budget">Residual limit:</label>
+                <div id="residual" style="display: inline;">null</div>
+            </div>
+            <h4 style="margin: 10px; font-family: cursive">Your Expenditures</h4>
+            <table id="table" style="margin: auto; width: 100%">
+                <tr>
+                    <td colspan="2">
+                      <a id="add" style="margin: 10px;">+ Add an expenditure</a>
+                      <div id="input_container" class="mb-3" style="display: none">
+                        <label for="input_text">Description: </label>
+                        <input id="input_text" type="text" class="form-control" style="display: inline-block; width: 20%" />
+                        <label for="input_num">$</label>
+                        <input id="input_num" type="number" class="form-control" style="display: inline-block; width: 20%" />
+                        <button id="saveBtn" class="btn btn-outline-secondary" type="button">
+                          Save
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
