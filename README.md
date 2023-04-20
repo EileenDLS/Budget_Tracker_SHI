@@ -1,13 +1,13 @@
 # Budget_Tracker_SHI
-In this application, you will allow me to indicate and track my spending per month for my indicated budget. 
-Save my monthly budget and monthly expenditures in sessionStorage. 
-When I reload the application, and I have saved data in sessionStorage, it should load it and allow me to see it.
+In this application, it allows users to indicate and track their spending per month for their indicated budget. 
+Save user's monthly budget and monthly expenditures in sessionStorage. 
+When users reload the application, and if there are saved data in sessionStorage, this application will load data and allow user to see it.
 
-I should be able to do the following actions:
+Users are able to do the following actions:
 - Add a new month and new budget
 - Add, edit and delete expenditures. Save it back to localStorage
 
-Suggested JSON data format:
+JSON data format example:
 [
    'date': '4/2023',
    'budget': 1342.22
