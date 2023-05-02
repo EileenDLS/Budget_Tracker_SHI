@@ -9,7 +9,7 @@ Users are able to do the following actions:
 
 JSON data format example:
 
-[
+[{
 
    'date': '4/2023',
    
@@ -17,14 +17,12 @@ JSON data format example:
    
    'expenditures': 
    
-   [{
+      [{
    
-      'description': 'pack of pens',
+         'description': 'pack of pens',
       
-      'cost': 12.33
+         'cost': 12.33
       
-    }]
+      }]
     
-  }
-  
-]
+}]
