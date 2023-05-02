@@ -8,13 +8,16 @@ Users are able to do the following actions:
 - Add, edit and delete expenditures. Save it back to localStorage
 
 JSON data format example:
+
 [
 
    'date': '4/2023',
    
    'budget': 1342.22
    
-   'expenditures': [{
+   'expenditures': 
+   
+   [{
    
       'description': 'pack of pens',
       
